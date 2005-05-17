@@ -5,8 +5,9 @@ Version:	1.1
 Release:	1
 License:	GPL
 Group:		Base/Utilities
-Source0:	http://dl.sourceforge.net/sourceforge/cramfs/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/cramfs/%{name}-%{version}.tar.gz
 # Source0-md5:	d3912b9f7bf745fbfea68f6a9b9de30f
+URL:		http://sourceforge.net/projects/cramfs/
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
