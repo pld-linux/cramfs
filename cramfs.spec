@@ -5,7 +5,7 @@ Version:	1.1
 Release:	1
 License:	GPL
 Group:		Base/Utilities
-Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/sourceforge/cramfs/%{name}-%{version}.tar.gz
 # Source0-md5:	d3912b9f7bf745fbfea68f6a9b9de30f
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -30,8 +30,7 @@ Zestaw narzêdzi do tworzenia i sprawdzania systemu plików cramfs.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sbindir}
 
-install mkcramfs $RPM_BUILD_ROOT%{_sbindir}
-install cramfsck $RPM_BUILD_ROOT%{_sbindir}
+install mkcramfs cramfsck $RPM_BUILD_ROOT%{_sbindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -39,4 +38,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README NOTES
-%attr(755,root,root) %{_sbindir}
+%attr(755,root,root) %{_sbindir}/*
