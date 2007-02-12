@@ -1,5 +1,5 @@
 Summary:	Set of tools which creates and checks cramfs filesytem
-Summary(pl.UTF-8):   Zestaw narzędzi do tworzenia i sprawdzania systemu plików cramfs
+Summary(pl.UTF-8):	Zestaw narzędzi do tworzenia i sprawdzania systemu plików cramfs
 Name:		cramfs
 Version:	1.1
 Release:	1
