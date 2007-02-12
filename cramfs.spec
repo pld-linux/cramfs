@@ -1,5 +1,5 @@
 Summary:	Set of tools which creates and checks cramfs filesytem
-Summary(pl):	Zestaw narzêdzi do tworzenia i sprawdzania systemu plików cramfs
+Summary(pl.UTF-8):   Zestaw narzÄ™dzi do tworzenia i sprawdzania systemu plikÃ³w cramfs
 Name:		cramfs
 Version:	1.1
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Set of tools which creates and checks cramfs filesystem.
 
-%description -l pl
-Zestaw narzêdzi do tworzenia i sprawdzania systemu plików cramfs.
+%description -l pl.UTF-8
+Zestaw narzÄ™dzi do tworzenia i sprawdzania systemu plikÃ³w cramfs.
 
 %prep
 %setup -q
